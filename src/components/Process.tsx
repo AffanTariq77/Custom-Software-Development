@@ -5,43 +5,43 @@ const Process = () => {
   const steps = [
     {
       number: "01",
-      title: "Understand (Analyze)",
+      title: "Understand (Discovery)",
       description:
-        "Identify high-impact automation opportunities and map the current manual flow.",
+        "We dive deep into user personas and business logic to define the \"Definition of Done.\"",
       details:
-        "We uncover the highest ROI workflows and document the exact handoffs, data entry points, and bottlenecks.",
+        "We clarify success criteria, product scope, and constraints before any architecture decisions are made.",
     },
     {
       number: "02",
-      title: "Architect (Design)",
+      title: "Architect (System Design)",
       description:
-        "Architect AI-driven workflows that align with your operations and security protocols.",
+        "We select the right stack and database schema to prevent bottlenecks before they happen.",
       details:
-        "We design automation logic, data flow, and guardrails that meet your compliance and reliability standards.",
+        "We blueprint systems, data flow, and security requirements so your product scales without rework.",
     },
     {
       number: "03",
-      title: "Build (Integrate)",
+      title: "Build (Sprints)",
       description:
-        "Deploy automation into existing tools, replacing manual steps with API triggers.",
+        "Rapid 2-week agile sprints where you see working features deployed to a staging environment.",
       details:
-        "We connect your systems, build connectors, and orchestrate end-to-end execution without breaking existing processes.",
+        "We deliver iteratively with clear demos, measurable progress, and tight feedback loops.",
     },
     {
       number: "04",
-      title: "Iterate (Optimize)",
+      title: "Iterate (QA/UAT)",
       description:
-        "Monitor performance, handling edge cases where the automation might need human review.",
+        "Rigorous testing cycles to squash bugs and refine UI/UX based on stakeholder feedback.",
       details:
-        "We watch accuracy, improve models, and implement human-in-the-loop review where it adds control.",
+        "We validate edge cases, performance, and usability before production release.",
     },
     {
       number: "05",
-      title: "Scale",
+      title: "Scale (Launch)",
       description:
-        "Expand the automation logic to handle higher volumes and new use cases.",
+        "We handle the DevOps, CI/CD setup, and final deployment to ensure a smooth public release.",
       details:
-        "We harden workflows for growth and continuously extend automation coverage across teams.",
+        "We monitor, stabilize, and prepare your product for real-world traffic and growth.",
     },
   ];
 
@@ -75,10 +75,10 @@ const Process = () => {
             className="text-4xl md:text-5xl font-bold mb-4"
             style={{ color: "#192841" }}
           >
-            The Automation Blueprint
+            The Development Lifecycle
           </h2>
           <p className="text-xl text-muted-foreground">
-            From manual chaos to autonomous execution.
+            From whiteboard to production.
           </p>
         </div>
 

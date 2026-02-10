@@ -116,7 +116,7 @@ const ContactForm = ({ onlyForm = false }: { onlyForm?: boolean }) => {
         className="w-full hover:bg-sky-400 hover:shadow-sky-blue bg-[#192841] text-white text-base font-semibold rounded-lg py-3 sm:py-4"
         disabled={loading}
       >
-        {loading ? "Starting..." : "Start Automating With AI"}
+        {loading ? "Starting..." : "Book a Technical Discovery Call"}
       </Button>
     </form>
   );
@@ -126,23 +126,23 @@ const ContactForm = ({ onlyForm = false }: { onlyForm?: boolean }) => {
       <div className="container mx-auto max-w-7xl">
         <div className="text-center mb-12">
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-            Your Processes Shouldn’t Slow You Down.
+            Ready to Build a Product That Lasts?
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-            Let AI handle the repetitive work so, your teams can focus on what actually drives growth.
+            Let’s discuss your roadmap and how our embedded team can accelerate your journey from ideation to deployment.
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           {/* Left Side - Benefits */}
           <div className="space-y-8">
-            <h3 className="text-2xl sm:text-3xl font-bold">Ready to speed up?</h3>
+            <h3 className="text-2xl sm:text-3xl font-bold">Ready to build?</h3>
             <div className="space-y-4">
               <div className="flex items-start gap-3">
                 <CheckCircle className="h-6 w-6 text-primary flex-shrink-0 mt-1" />
                 <div>
                   <h4 className="font-semibold text-lg">Deliverable</h4>
                   <p className="text-muted-foreground">
-                    A process automation audit.
+                    A technical architecture review.
                   </p>
                 </div>
               </div>
@@ -151,7 +151,7 @@ const ContactForm = ({ onlyForm = false }: { onlyForm?: boolean }) => {
                 <div>
                   <h4 className="font-semibold text-lg">Clarity</h4>
                   <p className="text-muted-foreground">
-                    Identify your biggest time-sinks.
+                    Get a realistic timeline and budget.
                   </p>
                 </div>
               </div>

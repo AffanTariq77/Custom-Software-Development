@@ -5,21 +5,21 @@ import { Brain, Rocket, Zap } from "lucide-react";
 const pillars = [
   {
     icon: Brain,
-    title: "AI at the Core",
+    title: "Embedded Teams",
     description:
-      "We go beyond RPA and basic scripts, using machine learning and intelligent agents to handle real-world complexity and unstructured data that breaks traditional bots.",
+      "We don’t work for you; we work as you. Our engineers integrate directly into your Slack and Jira, ensuring complete transparency and culture alignment.",
   },
   {
     icon: Rocket,
-    title: "Secure & Scalable",
+    title: "Sustainable Velocity",
     description:
-      "Built with enterprise-grade security, auditability, and scalability from day one. Your data remains encrypted, and every automated action is logged for compliance.",
+      "Speed matters, but not if it breaks everything. We prioritize clean architecture and automated testing so your development speed doesn't tank six months after launch.",
   },
   {
     icon: Zap,
-    title: "Built Around Your Business",
+    title: "Ownership Mindset",
     description:
-      "No off-the-shelf templates. Every automation is designed for your specific data structure, workflows, and business goals.",
+      "We treat your budget like our own. If a feature is too expensive and low-value, we will tell you. We measure our success by your product's performance, not billable hours.",
   },
 ];
 
@@ -43,10 +43,10 @@ const WhyWorkWithUs = () => {
             className="text-4xl md:text-5xl font-bold mb-4"
             style={{ color: "#192841" }}
           >
-            Why Our Automation Works
+            The "SV Standard" Difference
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            We build systems that adapt, not just scripts that break.
+            We bring Silicon Valley engineering discipline to every project.
           </p>
         </div>
         {/* SVG gradient definition rendered once */}

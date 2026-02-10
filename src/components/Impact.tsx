@@ -7,19 +7,19 @@ const Impact = () => {
             className="text-4xl md:text-5xl font-bold mb-4"
             style={{ color: "#192841" }}
           >
-            Automation That Moves the Needle
+            The "Product Excellence" Gap
           </h2>
           <p className="text-xl text-muted-foreground mb-6">
-            Automation isn’t about replacing people, it’s about removing friction.
+            Most agencies deliver what you ask for, even if it’s wrong for your scale.
           </p>
           <div className="text-lg text-muted-foreground leading-relaxed space-y-4">
             <p>
-              We embed AI directly into your business processes to handle complexity, improve accuracy, and unlock speed across operations. From data ingestion to decision execution, our solutions adapt, learn, and improve so your systems work harder without adding headcount.
+              We operate differently. We take ownership of the why behind every feature.
             </p>
             <ul className="text-base sm:text-lg text-muted-foreground list-disc pl-6 space-y-2">
-              <li>Reduce Error Rates: Eliminate manual copy-paste mistakes.</li>
-              <li>Instant Scalability: Handle 10x the volume without hiring 10x the staff.</li>
-              <li>Real-Time Execution: Tasks are completed the second they are triggered.</li>
+              <li>No "Yes-Men": We challenge assumptions to ensure you're building the right product.</li>
+              <li>Future-Proof: We write clean, modular code that doesn't need a rewrite six months later.</li>
+              <li>Commercial Focus: Every line of code is written with your user acquisition and retention goals in mind.</li>
             </ul>
           </div>
         </div>

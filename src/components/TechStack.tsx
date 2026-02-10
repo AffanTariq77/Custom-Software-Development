@@ -3,77 +3,117 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Badge } from "@/components/ui/badge";
 
 const TechStack = () => {
-  // The Integration & Backend Stack
+  // The Full-Stack Foundation
   const techCategories = {
-    orchestration: [
+    frontend: [
       {
-        name: "Airflow",
+        name: "React",
         details: {
-          title: "Airflow",
-          desc: "For orchestration",
-          url: "https://airflow.apache.org/",
+          title: "React",
+          desc: "Component-driven UI for scalable products",
+          url: "https://react.dev/",
         },
       },
       {
-        name: "LangChain",
+        name: "Next.js",
         details: {
-          title: "LangChain",
-          desc: "For complex decision trees",
-          url: "https://www.langchain.com/",
+          title: "Next.js",
+          desc: "Production-grade React framework",
+          url: "https://nextjs.org/",
+        },
+      },
+      {
+        name: "Vue.js",
+        details: {
+          title: "Vue.js",
+          desc: "Lightweight, flexible frontend framework",
+          url: "https://vuejs.org/",
+        },
+      },
+      {
+        name: "Tailwind CSS",
+        details: {
+          title: "Tailwind CSS",
+          desc: "Utility-first styling for fast UI iteration",
+          url: "https://tailwindcss.com/",
         },
       },
     ],
-    extraction: [
+    mobile: [
       {
-        name: "OpenAI Vision",
+        name: "Flutter",
         details: {
-          title: "OpenAI Vision",
-          desc: "For reading files",
-          url: "https://platform.openai.com/",
+          title: "Flutter",
+          desc: "High-performance cross-platform apps",
+          url: "https://flutter.dev/",
         },
       },
       {
-        name: "Azure Document Intelligence",
+        name: "React Native",
         details: {
-          title: "Azure Document Intelligence",
-          desc: "For reading files",
-          url: "https://learn.microsoft.com/azure/ai-services/document-intelligence/",
+          title: "React Native",
+          desc: "Shared codebase for iOS and Android",
+          url: "https://reactnative.dev/",
         },
       },
     ],
-    integration: [
-      {
-        name: "Python",
-        details: {
-          title: "Python",
-          desc: "For custom API connectors",
-          url: "https://www.python.org/",
-        },
-      },
+    backend: [
       {
         name: "Node.js",
         details: {
           title: "Node.js",
-          desc: "For custom API connectors",
+          desc: "Event-driven backend services",
           url: "https://nodejs.org/",
         },
       },
-    ],
-    database: [
       {
-        name: "SQL",
+        name: "Python (Django/FastAPI)",
         details: {
-          title: "SQL",
-          desc: "For storing structured output",
-          url: "https://www.iso.org/standard/63555.html",
+          title: "Python",
+          desc: "Rapid APIs with Django or FastAPI",
+          url: "https://www.python.org/",
         },
       },
       {
-        name: "Snowflake",
+        name: "Go",
         details: {
-          title: "Snowflake",
-          desc: "For storing structured output",
-          url: "https://www.snowflake.com/",
+          title: "Go",
+          desc: "High-throughput, reliable services",
+          url: "https://go.dev/",
+        },
+      },
+    ],
+    cloud: [
+      {
+        name: "AWS",
+        details: {
+          title: "AWS",
+          desc: "Scalable cloud infrastructure",
+          url: "https://aws.amazon.com/",
+        },
+      },
+      {
+        name: "Docker",
+        details: {
+          title: "Docker",
+          desc: "Containerized deployments",
+          url: "https://www.docker.com/",
+        },
+      },
+      {
+        name: "Kubernetes",
+        details: {
+          title: "Kubernetes",
+          desc: "Orchestration for resilient services",
+          url: "https://kubernetes.io/",
+        },
+      },
+      {
+        name: "Terraform",
+        details: {
+          title: "Terraform",
+          desc: "Infrastructure as code",
+          url: "https://www.terraform.io/",
         },
       },
     ],
@@ -124,20 +164,20 @@ const TechStack = () => {
             className="text-2xl xs:text-3xl sm:text-4xl md:text-5xl font-bold mb-3 xs:mb-4"
             style={{ color: "#192841" }}
           >
-            The Automation Stack
+            The Full-Stack Foundation
           </h2>
           <p className="text-sm xs:text-base sm:text-xl text-muted-foreground max-w-3xl mx-auto">
-            Tools for orchestration, extraction, and execution.
+            Modern tools for high-performance applications.
           </p>
         </div>
 
         <div className="max-w-5xl mx-auto">
-          <Tabs defaultValue="orchestration" className="w-full">
+          <Tabs defaultValue="frontend" className="w-full">
             <TabsList className="grid grid-cols-2 sm:grid-cols-4 w-full mb-8 xs:mb-10 sm:mb-12 gap-1 xs:gap-2 h-auto p-1 xs:p-1.5">
-              <TabsTrigger value="orchestration" className="text-xs xs:text-sm py-2 xs:py-3">Orchestration</TabsTrigger>
-              <TabsTrigger value="extraction" className="text-xs xs:text-sm py-2 xs:py-3">Extraction (IDP)</TabsTrigger>
-              <TabsTrigger value="integration" className="text-xs xs:text-sm py-2 xs:py-3">Integration</TabsTrigger>
-              <TabsTrigger value="database" className="text-xs xs:text-sm py-2 xs:py-3">Database</TabsTrigger>
+              <TabsTrigger value="frontend" className="text-xs xs:text-sm py-2 xs:py-3">Frontend</TabsTrigger>
+              <TabsTrigger value="mobile" className="text-xs xs:text-sm py-2 xs:py-3">Mobile</TabsTrigger>
+              <TabsTrigger value="backend" className="text-xs xs:text-sm py-2 xs:py-3">Backend</TabsTrigger>
+              <TabsTrigger value="cloud" className="text-xs xs:text-sm py-2 xs:py-3">Cloud</TabsTrigger>
             </TabsList>
             {Object.entries(techCategories).map(([key, technologies]) => (
               <TabsContent key={key} value={key} className="space-y-6 xs:space-y-8">

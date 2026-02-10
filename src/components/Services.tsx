@@ -1,14 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Card } from "@/components/ui/card";
 
-import {
-  Lightbulb,
-  Box,
-  Puzzle,
-  RefreshCw,
-  Shield,
-  Sparkles,
-} from "lucide-react";
+import { Lightbulb, Puzzle, Shield } from "lucide-react";
 
 const Services = () => {
   const services = [

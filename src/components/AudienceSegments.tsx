@@ -10,24 +10,24 @@ const AudienceSegments = () => {
   const segments = [
     {
       icon: Rocket,
-      title: "Operations Teams: Logistics & Routing.",
+      title: "Early-Stage Startups: Speed to Market.",
       description:
-        "Automate dispatching, inventory tracking, and supply chain updates in real-time.",
-      cta: "Optimize Logistics",
-    },
-    {
-      icon: Building2,
-      title: "Finance & HR: Back-Office Speed.",
-      description:
-        "Automate invoice processing, payroll reconciliation, and employee onboarding workflows.",
-      cta: "Streamline Finance",
+        "You need a partner who can build a V1 in weeks, not months. We handle the tech so you can handle the fundraising.",
+      cta: "Launch MVP",
     },
     {
       icon: Users,
-      title: "SaaS Platforms: Background Processing.",
+      title: "Growth-Stage Companies: Refactoring & Scaling.",
       description:
-        "Build invisible automation layers that handle user data processing without slowing down the frontend.",
-      cta: "Automate Backend",
+        "You have traction, but your tech is breaking. We stabilize your legacy code and prepare your infrastructure for Series A/B growth.",
+      cta: "Scale Infrastructure",
+    },
+    {
+      icon: Building2,
+      title: "Enterprise Innovation: New Digital Products.",
+      description:
+        "You need to launch a new internal tool or customer portal without disrupting core IT. We build secure, isolated environments.",
+      cta: "Build Internal Tools",
     },
   ];
 
@@ -51,10 +51,10 @@ const AudienceSegments = () => {
               className="text-4xl md:text-5xl font-bold mb-4"
               style={{ color: "#192841" }}
             >
-              Who Needs Intelligent Automation?
+              Engineering for Every Stage
             </h2>
             <p className="text-xl text-muted-foreground">
-              If your team is drowning in data entry, we can help.
+              Tailored engagement models for your growth phase.
             </p>
           </div>
 
