@@ -16,7 +16,7 @@ const Impact = () => {
             <p>
               We operate differently. We take ownership of the why behind every feature.
             </p>
-            <ul className="text-base sm:text-lg text-muted-foreground list-disc pl-6 space-y-2">
+            <ul className="text-base sm:text-lg text-muted-foreground list-disc pl-6 space-y-2 text-left max-w-2xl mx-auto">
               <li>No "Yes-Men": We challenge assumptions to ensure you're building the right product.</li>
               <li>Future-Proof: We write clean, modular code that doesn't need a rewrite six months later.</li>
               <li>Commercial Focus: Every line of code is written with your user acquisition and retention goals in mind.</li>
